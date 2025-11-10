@@ -52,16 +52,22 @@ export default function Header() {
             <div className="container mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-2.5 xs:py-3 sm:py-3">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
-                        <div
-                            className="flex items-center gap-2 xs:gap-2.5 sm:gap-3"
+                        <Link
+                            to="/"
+                            className="flex items-center gap-3 xs:gap-3.5 sm:gap-4"
                         >
-                            <div className="bg-gradient-to-r from-[#800000] to-[#B22222] w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center shadow-md flex-shrink-0">
-                                <FontAwesomeIcon icon={faHome} className="w-3 h-3 xs:w-3.5 xs:h-3.5 sm:w-4 sm:h-4 text-white" />
+                            {/* Logo Image - Larger Size */}
+                            <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 rounded-lg flex items-center justify-center overflow-hidden shadow-md flex-shrink-0">
+                                <img
+                                    src="/logo.jpg"
+                                    alt="Sonia Property Logo"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
-                            <h1 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold bg-gradient-to-r from-[#800000] to-[#B22222] bg-clip-text text-transparent leading-tight tracking-tight font-serif">
+                            <h1 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-[#800000] to-[#B22222] bg-clip-text text-transparent leading-tight tracking-tight font-serif">
                                 Sonia<span className="text-[#B22222]">Property</span>
                             </h1>
-                        </div>
+                        </Link>
                     </div>
 
                     <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6 2xl:space-x-8">
