@@ -22,7 +22,7 @@ export default function FAQ() {
     const faqs = [
         {
             question: "Bagaimana cara mendaftarkan properti saya di Sonia Property?",
-            answer: "Anda dapat mendaftarkan properti melalui website kami dengan klik tombol 'Jual Properti' atau menghubungi agen kami langsung di 0811-2400-219. Tim Sonia Property akan membantu proses pendaftaran dan penilaian properti Anda di Cirebon."
+            answer: "Anda dapat mendaftarkan properti melalui website kami dengan klik tombol 'Jual Properti' atau menghubungi agen kami langsung di 0817-730-219. Tim Sonia Property akan membantu proses pendaftaran dan penilaian properti Anda di Cirebon."
         },
         {
             question: "Berapa lama proses verifikasi properti di Cirebon?",
@@ -34,7 +34,7 @@ export default function FAQ() {
         },
         {
             question: "Bagaimana cara menjadi agen Sonia Property?",
-            answer: "Untuk bergabung sebagai agen Sonia Property, Anda dapat menghubungi kami langsung melalui WhatsApp di 0811-2400-219 atau datang ke kantor kami di Cirebon. Kami mencari individu yang berdedikasi dan memiliki minat di bidang properti."
+            answer: "Untuk bergabung sebagai agen Sonia Property, Anda dapat menghubungi kami langsung melalui WhatsApp di 0817-730-219 atau datang ke kantor kami di Cirebon. Kami mencari individu yang berdedikasi dan memiliki minat di bidang properti."
         },
         {
             question: "Apa saja area layanan Sonia Property?",
@@ -177,7 +177,7 @@ export default function FAQ() {
 
                                 <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4">
                                     <a
-                                        href="https://wa.me/628112400219" target="_blank"
+                                        href="https://wa.me/62817730219" target="_blank"
                                         className="px-6 py-3 sm:px-7 sm:py-3 md:px-8 md:py-4 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg flex items-center justify-center group text-sm sm:text-base lg:text-sm xl:text-base font-sans"
                                         rel="noopener noreferrer"
                                     >
@@ -189,7 +189,7 @@ export default function FAQ() {
                                 <div className="mt-4 md:mt-6 pt-4 md:pt-6 border-t border-white/20">
                                     <p className="text-white/90 text-xs sm:text-sm font-sans">
                                         <FontAwesomeIcon icon={faPhone} className="mr-2 w-3 h-3" />
-                                        <strong>Telepon Langsung:</strong> 0811-2400-219
+                                        <strong>Telepon Langsung:</strong> 0817-730-219
                                     </p>
                                     <p className="text-white/80 text-xs sm:text-sm mt-1 font-sans">
                                         <FontAwesomeIcon icon={faEnvelope} className="mr-2 w-3 h-3" />

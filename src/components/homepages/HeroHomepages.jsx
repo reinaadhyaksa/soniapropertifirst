@@ -40,7 +40,7 @@ export default function HeroHomepages() {
                                 <span className="ml-2">Jelajahi Properti Cirebon</span>
                             </Link>
                             <a
-                                href="https://wa.me/628112400219"
+                                href="https://wa.me/62817730219"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-6 py-3 sm:px-7 sm:py-3 md:px-8 md:py-4 bg-transparent border-2 border-[#800000] text-[#800000] font-semibold rounded-lg hover:bg-[#800000] hover:text-white transition-all duration-300 flex items-center justify-center text-sm sm:text-base lg:text-sm xl:text-base tracking-wide font-sans hover:transform hover:-translate-y-1 lg:px-6 lg:py-3">

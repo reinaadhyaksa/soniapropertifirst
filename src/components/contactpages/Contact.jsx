@@ -14,7 +14,7 @@ export default function Contact() {
             title: "Telepon Sonia Property",
             description: "Hubungi kami untuk konsultasi cepat dan informasi properti di Cirebon",
             contacts: [
-                { type: "phone", value: "0811-2400-219" },
+                { type: "phone", value: "0817-730-219" },
             ],
             note: "Senin - Jumat: 09.00 – 16.00 WIB"
         },

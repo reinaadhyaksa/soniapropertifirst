@@ -25,7 +25,7 @@ export default function FeaturesServicepages() {
 
     // Fungsi untuk handle klik tombol Detail
     const handleDetailClick = (property) => {
-        const phoneNumber = "628112400219";
+        const phoneNumber = "62817730219";
         const message = `Halo, saya tertarik dengan properti berikut:\n\n*${property.title}*\nLokasi: ${property.location}\nHarga: ${property.price}\nTipe: ${property.type}\nStatus: ${property.status}\n\nBisa saya mendapatkan informasi lebih lanjut?`;
         const encodedMessage = encodeURIComponent(message);
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

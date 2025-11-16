@@ -4,8 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Force light mode - comprehensive approach */
+:root {
+  color-scheme: light only;
+  color-scheme: light;
+}
+
 html {
   scroll-behavior: smooth;
+  background-color: white !important;
+  color: #1F2937 !important;
 }
 
 body {
@@ -14,8 +22,25 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white !important;
+  color: #1F2937 !important;
 }
 
+/* Force light colors on all elements */
+* {
+  color-scheme: light only !important;
+}
+
+/* Ensure form elements also stay light */
+input,
+textarea,
+select {
+  color-scheme: light !important;
+  background-color: white !important;
+  color: #1F2937 !important;
+}
+
+/* Rest of your existing CSS remains unchanged */
 h1,
 h2,
 h3,

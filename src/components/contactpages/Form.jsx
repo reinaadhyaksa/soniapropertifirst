@@ -31,7 +31,7 @@ export default function Form() {
         e.preventDefault()
 
         // Format pesan untuk WhatsApp
-        const phoneNumber = "628112400219";
+        const phoneNumber = "62817730219";
         const subjectText = getSubjectText(formData.subjek);
 
         const message = `Halo Sonia Property, saya ingin berkonsultasi mengenai properti.

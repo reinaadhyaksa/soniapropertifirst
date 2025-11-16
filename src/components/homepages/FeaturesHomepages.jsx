@@ -82,7 +82,7 @@ export default function FeaturesHomepage() {
                                 <span className="ml-2">Konsultasi Gratis</span>
                             </Link>
                             <a
-                                href="https://wa.me/628112400219"
+                                href="https://wa.me/62817730219"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-5 py-2.5 xs:px-6 xs:py-3 sm:px-6 sm:py-3 md:px-8 md:py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-300 flex items-center justify-center text-sm xs:text-base sm:text-base md:text-lg tracking-wide font-sans hover:transform hover:-translate-y-1">

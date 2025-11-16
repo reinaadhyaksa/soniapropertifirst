@@ -8,5 +8,5 @@ export default {
     extend: {},
   },
   plugins: [],
+  // Remove darkMode option completely - this disables dark mode
 }
-

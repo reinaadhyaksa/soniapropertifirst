@@ -119,7 +119,7 @@ export default function StepServicepages() {
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4">
                             <a
-                                href="https://wa.me/628112400219"
+                                href="https://wa.me/62817730219"
                                 target="_blank"
                                 className="px-6 py-3 sm:px-7 sm:py-3 md:px-8 md:py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-300 flex items-center justify-center text-sm sm:text-base lg:text-sm xl:text-base font-sans hover:transform hover:-translate-y-0.5">
                                 <FontAwesomeIcon icon={faCalendar} className="w-4 h-4 md:w-5 md:h-5" />

@@ -62,7 +62,7 @@ export default function HeroContactpages() {
                     {/* Quick Action Buttons */}
                     <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 mb-6 md:mb-8">
                         <a
-                            href="https://wa.me/628112400219" target="_blank"
+                            href="https://wa.me/62817730219" target="_blank"
                             className="px-6 py-3 sm:px-7 sm:py-3 md:px-8 md:py-4 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center group text-sm sm:text-base lg:text-sm xl:text-base font-sans">
                             <FontAwesomeIcon icon={faWhatsapp} className="mr-2 md:mr-3 text-base md:text-lg group-hover:scale-110 transition-transform" />
                             Chat WhatsApp

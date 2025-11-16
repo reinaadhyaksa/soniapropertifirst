@@ -92,8 +92,8 @@ const Footer = () => {
                                         <FontAwesomeIcon icon={faPhone} className="w-3 h-3 xs:w-3.5 xs:h-3.5 sm:w-4 sm:h-4" />
                                     </div>
                                     <div>
-                                        <a href="tel:08112400219" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-xs xs:text-sm sm:text-sm md:text-base font-sans">
-                                            0811-2400-219
+                                        <a href="tel:0817730219" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-xs xs:text-sm sm:text-sm md:text-base font-sans">
+                                            0817-730-219
                                         </a>
                                     </div>
                                 </li>

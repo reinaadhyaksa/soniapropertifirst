@@ -56,7 +56,6 @@ export default function Header() {
                             to="/"
                             className="flex items-center gap-3 xs:gap-3.5 sm:gap-4"
                         >
-                            {/* Logo Image - Larger Size */}
                             <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 rounded-lg flex items-center justify-center overflow-hidden shadow-md flex-shrink-0">
                                 <img
                                     src="/logo.jpg"
@@ -64,8 +63,11 @@ export default function Header() {
                                     className="w-full h-full object-cover"
                                 />
                             </div>
-                            <h1 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-[#800000] to-[#B22222] bg-clip-text text-transparent leading-tight tracking-tight font-serif">
-                                Sonia<span className="text-[#B22222]">Property</span>
+                            <h1 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-serif font-bold leading-tight tracking-tight">
+                                <span className="bg-gradient-to-r from-[#C2185B] to-[#E91E63] bg-clip-text text-transparent">
+                                    Sonia
+                                </span>{" "}
+                                <span className="text-[#D4AF37]">Property</span>
                             </h1>
                         </Link>
                     </div>
@@ -94,7 +96,7 @@ export default function Header() {
                         })}
 
                         <a
-                            href="https://wa.me/628112400219"
+                            href="https://wa.me/62817730219"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-gradient-to-r from-[#800000] to-[#B22222] hover:from-[#B22222] hover:to-[#800000] text-white px-3 xs:px-4 xl:px-5 py-1.5 xs:py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg ml-2 xs:ml-3 text-xs xl:text-sm min-h-[36px] xs:min-h-[40px] flex items-center tracking-wide font-sans"
@@ -151,7 +153,7 @@ export default function Header() {
 
                         <div className="flex flex-col gap-2 xs:gap-2.5 px-4 xs:px-5 sm:px-6 pt-2 xs:pt-3 sm:pt-4 mt-1 xs:mt-1 sm:mt-2 border-t border-gray-100">
                             <a
-                                href="https://wa.me/628112400219"
+                                href="https://wa.me/62817730219"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 onClick={closeMobileMenu}
@@ -174,7 +176,7 @@ export default function Header() {
                             <div className="flex flex-col gap-1 xs:gap-1.5 text-xs text-gray-600 tracking-normal font-sans">
                                 <div className="flex items-center gap-1.5">
                                     <FontAwesomeIcon icon={faPhone} className="w-3.5 h-3.5 xs:w-4 xs:h-4" />
-                                    <span>0811-2400-219</span>
+                                    <span>0817-730-219</span>
                                 </div>
                                 <div className="flex items-center gap-1.5">
                                     <FontAwesomeIcon icon={faClock} className="w-3.5 h-3.5 xs:w-4 xs:h-4" />

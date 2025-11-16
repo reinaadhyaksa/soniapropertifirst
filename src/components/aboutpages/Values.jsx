@@ -86,7 +86,7 @@ export default function Values() {
                             </p>
                             <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4">
                                 <a
-                                    href="https://wa.me/628112400219"
+                                    href="https://wa.me/62817730219"
                                     target="_blank"
                                     className="px-6 py-3 sm:px-7 sm:py-3 md:px-8 md:py-4 bg-white text-[#800000] font-semibold rounded-lg shadow-md hover:shadow-lg hover:bg-gray-50 transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center group text-sm sm:text-base lg:text-sm xl:text-base font-sans"
                                 >

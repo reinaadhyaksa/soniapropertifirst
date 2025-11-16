@@ -52,7 +52,7 @@ export default function HeroServicepages() {
                             <span className="ml-2 md:ml-3">Jelajahi Properti Cirebon</span>
                         </a>
                         <a
-                            href="https://wa.me/628112400219"
+                            href="https://wa.me/62817730219"
                             target="_blank"
                             className="px-6 py-3 sm:px-7 sm:py-3 md:px-8 md:py-4 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center text-sm sm:text-base lg:text-sm xl:text-base font-sans">
                             <FontAwesomeIcon icon={faCalendar} className="w-4 h-4 md:w-5 md:h-5" />
