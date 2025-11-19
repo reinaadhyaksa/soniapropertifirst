@@ -10,23 +10,23 @@ import PropertyDetail from './pages/PropertyDetail';
 // Komponen Loading
 function LoadingOverlay() {
   return (
-    <div className="fixed inset-0 bg-white z-50 flex items-center justify-center">
+    <div className="fixed inset-0 bg-[#121212] z-50 flex items-center justify-center">
       <div className="text-center">
         <div className="relative">
           {/* Loading Spinner */}
-          <div className="w-16 h-16 border-4 border-[#800000] border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <div className="w-16 h-16 border-4 border-[#D6A676] border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
 
           {/* Loading Text dengan branding Sonia Property */}
           <div className="flex items-center justify-center space-x-2">
-            <span className="text-[#800000] font-semibold text-lg font-serif">Sonia Property</span>
+            <span className="bg-gradient-to-r from-[#E4725A] to-[#D6A676] bg-clip-text text-transparent font-semibold text-lg font-serif">Sonia Property</span>
             <div className="flex space-x-1">
-              <div className="w-2 h-2 bg-[#800000] rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-              <div className="w-2 h-2 bg-[#B22222] rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
-              <div className="w-2 h-2 bg-[#D4AF37] rounded-full animate-bounce" style={{ animationDelay: '0.3s' }}></div>
+              <div className="w-2 h-2 bg-[#E4725A] rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
+              <div className="w-2 h-2 bg-[#D8896A] rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+              <div className="w-2 h-2 bg-[#D6A676] rounded-full animate-bounce" style={{ animationDelay: '0.3s' }}></div>
             </div>
           </div>
 
-          <p className="text-gray-600 mt-2 text-sm font-sans">Memuat halaman...</p>
+          <p className="text-[#CCCCCC] mt-2 text-sm font-sans">Memuat halaman...</p>
         </div>
       </div>
     </div>

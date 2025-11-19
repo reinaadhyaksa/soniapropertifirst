@@ -46,7 +46,7 @@ export default function Contact() {
             return (
                 <a
                     href={`tel:${contact.value}`}
-                    className="block text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 text-sm sm:text-base"
+                    className="block text-[#D6A676] font-semibold hover:text-[#E4725A] transition-colors duration-300 text-sm sm:text-base"
                     aria-label={`Hubungi Sonia Property di ${contact.value}`}
                 >
                     <FontAwesomeIcon icon={faPhone} className="mr-2 w-3 h-3 sm:w-4 sm:h-4" aria-hidden="true" />
@@ -57,7 +57,7 @@ export default function Contact() {
             return (
                 <a
                     href={`mailto:${contact.value}`}
-                    className="block text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 text-sm sm:text-base"
+                    className="block text-[#D6A676] font-semibold hover:text-[#E4725A] transition-colors duration-300 text-sm sm:text-base"
                     aria-label={`Kirim email ke Sonia Property di ${contact.value}`}
                 >
                     <FontAwesomeIcon icon={faEnvelope} className="mr-2 w-3 h-3 sm:w-4 sm:h-4" aria-hidden="true" />
@@ -68,19 +68,19 @@ export default function Contact() {
     }
 
     return (
-        <section className="section-padding bg-gradient-to-br from-white to-[#FAFAFA]" aria-labelledby="contact-methods-heading">
+        <section className="section-padding bg-gradient-to-br from-[#121212] to-[#1A1A1A]" aria-labelledby="contact-methods-heading">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12 md:mb-16">
-                    <div className="inline-flex items-center bg-[#800000] text-white rounded-full px-4 py-2 md:px-6 md:py-2 mb-4 md:mb-6 shadow-lg text-sm sm:text-base font-sans">
+                    <div className="inline-flex items-center bg-gradient-to-r from-[#E4725A] to-[#D6A676] text-white rounded-full px-4 py-2 md:px-6 md:py-2 mb-4 md:mb-6 shadow-lg text-sm sm:text-base font-sans">
                         <FontAwesomeIcon icon={faComments} className="mr-2 w-4 h-4" />
                         <span className="font-semibold">Terhubung Dengan Kami</span>
                     </div>
 
-                    <h2 id="contact-methods-heading" className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-800 mb-4 md:mb-6 leading-tight font-serif">
-                        Informasi Kontak <span className="text-[#800000]">Sonia Property</span>
+                    <h2 id="contact-methods-heading" className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight font-serif">
+                        Informasi Kontak <span className="bg-gradient-to-r from-[#E4725A] to-[#D6A676] bg-clip-text text-transparent">Sonia Property</span>
                     </h2>
-                    <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed md:leading-loose font-sans">
-                        Beberapa cara untuk terhubung dengan tim <strong className="text-[#800000] font-semibold">Sonia Property</strong>. Kami senang mendengar dari Anda dan siap membantu kebutuhan properti Anda di Cirebon.
+                    <p className="text-base sm:text-lg md:text-xl text-[#CCCCCC] max-w-3xl mx-auto leading-relaxed md:leading-loose font-sans">
+                        Beberapa cara untuk terhubung dengan tim <strong className="text-[#D6A676] font-semibold">Sonia Property</strong>. Kami senang mendengar dari Anda dan siap membantu kebutuhan properti Anda di Cirebon.
                     </p>
                 </div>
 
@@ -88,14 +88,14 @@ export default function Contact() {
                     {contactMethods.map((method, index) => (
                         <article
                             key={index}
-                            className="bg-white p-6 md:p-8 rounded-xl text-center shadow-md border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group relative overflow-hidden"
+                            className="bg-[#1E1E1E] p-6 md:p-8 rounded-xl text-center shadow-lg border border-[#FFFFFF15] hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group relative overflow-hidden"
                             itemScope
                             itemType="https://schema.org/ContactPoint"
                         >
-                            <div className="absolute top-0 right-0 w-24 h-24 md:w-32 md:h-32 bg-gradient-to-br from-[#800000]/5 to-[#B22222]/5 rounded-full -translate-y-12 md:-translate-y-16 translate-x-12 md:translate-x-16 group-hover:scale-150 transition-transform duration-500"></div>
+                            <div className="absolute top-0 right-0 w-24 h-24 md:w-32 md:h-32 bg-gradient-to-br from-[#E4725A]/10 to-[#D6A676]/10 rounded-full -translate-y-12 md:-translate-y-16 translate-x-12 md:translate-x-16 group-hover:scale-150 transition-transform duration-500"></div>
 
                             <div className="relative z-10">
-                                <div className="bg-gradient-to-r from-[#800000] to-[#B22222] w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                <div className="bg-gradient-to-r from-[#E4725A] to-[#D8896A] w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                                     <FontAwesomeIcon
                                         icon={method.icon}
                                         className="text-white text-lg md:text-2xl w-6 h-6 md:w-8 md:h-8"
@@ -103,11 +103,11 @@ export default function Contact() {
                                     />
                                 </div>
 
-                                <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 md:mb-4 group-hover:text-[#800000] transition-colors duration-300 leading-tight font-sans" itemProp="name">
+                                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 md:mb-4 group-hover:text-[#D6A676] transition-colors duration-300 leading-tight font-sans" itemProp="name">
                                     {method.title}
                                 </h3>
 
-                                <p className="text-gray-600 mb-4 md:mb-6 leading-relaxed text-sm sm:text-base font-sans" itemProp="description">
+                                <p className="text-[#CCCCCC] mb-4 md:mb-6 leading-relaxed text-sm sm:text-base font-sans" itemProp="description">
                                     {method.description}
                                 </p>
 
@@ -124,7 +124,7 @@ export default function Contact() {
                                         href={method.mapUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 text-sm sm:text-base font-sans space-y-1 md:space-y-2"
+                                        className="block text-[#D6A676] font-semibold hover:text-[#E4725A] transition-colors duration-300 text-sm sm:text-base font-sans space-y-1 md:space-y-2"
                                         aria-label="Buka lokasi Sonia Property di Google Maps"
                                         itemProp="address"
                                         itemScope
@@ -136,12 +136,12 @@ export default function Contact() {
                                     </a>
                                 )}
 
-                                <p className="text-gray-500 text-xs sm:text-sm mt-4 md:mt-6 pt-3 md:pt-4 border-t border-gray-100 group-hover:border-[#B22222]/30 transition-colors duration-300 font-sans" itemProp="hoursAvailable">
+                                <p className="text-[#A7A7A7] text-xs sm:text-sm mt-4 md:mt-6 pt-3 md:pt-4 border-t border-[#FFFFFF15] group-hover:border-[#D6A676]/30 transition-colors duration-300 font-sans" itemProp="hoursAvailable">
                                     {method.note}
                                 </p>
                             </div>
 
-                            <div className="absolute inset-0 rounded-xl border-2 border-transparent group-hover:border-[#B22222]/20 transition-all duration-300 pointer-events-none"></div>
+                            <div className="absolute inset-0 rounded-xl border-2 border-transparent group-hover:border-[#D6A676]/20 transition-all duration-300 pointer-events-none"></div>
                         </article>
                     ))}
                 </div>

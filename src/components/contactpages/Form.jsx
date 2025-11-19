@@ -71,9 +71,9 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
             title: "Jam Operasional Sonia Property",
             content: (
                 <>
-                    <p className="text-gray-600 text-xs sm:text-sm">Senin - Jumat: 09.00 – 16.00 WIB</p>
-                    <p className="text-gray-600 text-xs sm:text-sm">Sabtu & Minggu: Tutup</p>
-                    <p className="text-gray-600 text-xs sm:text-sm">Hari Libur Nasional: Tutup</p>
+                    <p className="text-[#CCCCCC] text-xs sm:text-sm">Senin - Jumat: 09.00 – 16.00 WIB</p>
+                    <p className="text-[#CCCCCC] text-xs sm:text-sm">Sabtu & Minggu: Tutup</p>
+                    <p className="text-[#CCCCCC] text-xs sm:text-sm">Hari Libur Nasional: Tutup</p>
                 </>
             )
         },
@@ -81,7 +81,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
             icon: faUserFriends,
             title: "Konsultasi Properti Langsung",
             content: (
-                <p className="text-gray-600 text-xs sm:text-sm">
+                <p className="text-[#CCCCCC] text-xs sm:text-sm">
                     Untuk konsultasi properti langsung di Cirebon, disarankan membuat janji terlebih dahulu melalui telepon atau WhatsApp.
                 </p>
             )
@@ -90,7 +90,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
             icon: faHeadset,
             title: "Dukungan Profesional",
             content: (
-                <p className="text-gray-600 text-xs sm:text-sm">
+                <p className="text-[#CCCCCC] text-xs sm:text-sm">
                     Untuk pertanyaan seputar properti Cirebon, hubungi kami selama jam operasional untuk layanan terbaik.
                 </p>
             )
@@ -117,30 +117,30 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
     }
 
     return (
-        <section className="section-padding bg-gradient-to-br from-[#FAFAFA] to-white" aria-labelledby="contact-form-heading">
+        <section className="section-padding bg-gradient-to-br from-[#121212] to-[#1A1A1A]" aria-labelledby="contact-form-heading">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start">
                     {/* Contact Form */}
                     <div>
-                        <div className="bg-white rounded-xl p-6 md:p-8 shadow-md border border-gray-100">
+                        <div className="bg-[#1E1E1E] rounded-xl p-6 md:p-8 shadow-lg border border-[#FFFFFF15]">
                             {/* Form Header */}
                             <div className="text-center mb-6 md:mb-8">
-                                <div className="inline-flex items-center bg-[#800000] text-white rounded-full px-4 py-2 md:px-6 md:py-2 mb-3 md:mb-4 shadow-lg text-sm sm:text-base font-sans">
+                                <div className="inline-flex items-center bg-gradient-to-r from-[#E4725A] to-[#D6A676] text-white rounded-full px-4 py-2 md:px-6 md:py-2 mb-3 md:mb-4 shadow-lg text-sm sm:text-base font-sans">
                                     <FontAwesomeIcon icon={faEnvelope} className="mr-2 w-4 h-4" />
                                     <span className="font-semibold">Kirim Pesan</span>
                                 </div>
-                                <h2 id="contact-form-heading" className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 md:mb-4 leading-tight font-serif">
-                                    Hubungi <span className="text-[#800000]">Sonia Property</span>
+                                <h2 id="contact-form-heading" className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 md:mb-4 leading-tight font-serif">
+                                    Hubungi <span className="bg-gradient-to-r from-[#E4725A] to-[#D6A676] bg-clip-text text-transparent">Sonia Property</span>
                                 </h2>
-                                <p className="text-gray-600 text-sm sm:text-base font-sans">
-                                    Isi formulir di bawah ini dan tim <strong className="text-[#800000] font-semibold">Sonia Property</strong> akan menghubungi Anda secepatnya untuk konsultasi properti.
+                                <p className="text-[#CCCCCC] text-sm sm:text-base font-sans">
+                                    Isi formulir di bawah ini dan tim <strong className="text-[#D6A676] font-semibold">Sonia Property</strong> akan menghubungi Anda secepatnya untuk konsultasi properti.
                                 </p>
                             </div>
 
                             <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6" itemScope itemType="https://schema.org/ContactPage">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                                     <div>
-                                        <label htmlFor="nama" className="block text-gray-700 font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
+                                        <label htmlFor="nama" className="block text-white font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
                                             Nama Lengkap *
                                         </label>
                                         <input
@@ -149,14 +149,14 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                             name="nama"
                                             value={formData.nama}
                                             onChange={handleChange}
-                                            className="w-full px-3 py-3 md:px-4 md:py-4 border border-gray-200 rounded-lg form-input focus:outline-none focus:border-[#800000] focus:ring-4 focus:ring-[#800000]/20 transition-all duration-300 bg-gray-50/50 hover:bg-white text-sm sm:text-base font-sans"
+                                            className="w-full px-3 py-3 md:px-4 md:py-4 border border-[#FFFFFF15] rounded-lg form-input focus:outline-none focus:border-[#D6A676] focus:ring-4 focus:ring-[#D6A676]/20 transition-all duration-300 bg-[#2A2A2A] hover:bg-[#2A2A2A]/80 text-white placeholder-[#A7A7A7] text-sm sm:text-base font-sans"
                                             placeholder="Masukkan nama lengkap"
                                             required
                                             itemProp="name"
                                         />
                                     </div>
                                     <div>
-                                        <label htmlFor="telepon" className="block text-gray-700 font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
+                                        <label htmlFor="telepon" className="block text-white font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
                                             Nomor Telepon *
                                         </label>
                                         <input
@@ -165,7 +165,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                             name="telepon"
                                             value={formData.telepon}
                                             onChange={handleChange}
-                                            className="w-full px-3 py-3 md:px-4 md:py-4 border border-gray-200 rounded-lg form-input focus:outline-none focus:border-[#800000] focus:ring-4 focus:ring-[#800000]/20 transition-all duration-300 bg-gray-50/50 hover:bg-white text-sm sm:text-base font-sans"
+                                            className="w-full px-3 py-3 md:px-4 md:py-4 border border-[#FFFFFF15] rounded-lg form-input focus:outline-none focus:border-[#D6A676] focus:ring-4 focus:ring-[#D6A676]/20 transition-all duration-300 bg-[#2A2A2A] hover:bg-[#2A2A2A]/80 text-white placeholder-[#A7A7A7] text-sm sm:text-base font-sans"
                                             placeholder="Contoh: 081234567890"
                                             required
                                             itemProp="telephone"
@@ -174,7 +174,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                 </div>
 
                                 <div>
-                                    <label htmlFor="email" className="block text-gray-700 font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
+                                    <label htmlFor="email" className="block text-white font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
                                         Alamat Email *
                                     </label>
                                     <input
@@ -183,7 +183,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                         name="email"
                                         value={formData.email}
                                         onChange={handleChange}
-                                        className="w-full px-3 py-3 md:px-4 md:py-4 border border-gray-200 rounded-lg form-input focus:outline-none focus:border-[#800000] focus:ring-4 focus:ring-[#800000]/20 transition-all duration-300 bg-gray-50/50 hover:bg-white text-sm sm:text-base font-sans"
+                                        className="w-full px-3 py-3 md:px-4 md:py-4 border border-[#FFFFFF15] rounded-lg form-input focus:outline-none focus:border-[#D6A676] focus:ring-4 focus:ring-[#D6A676]/20 transition-all duration-300 bg-[#2A2A2A] hover:bg-[#2A2A2A]/80 text-white placeholder-[#A7A7A7] text-sm sm:text-base font-sans"
                                         placeholder="nama@email.com"
                                         required
                                         itemProp="email"
@@ -191,7 +191,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                 </div>
 
                                 <div>
-                                    <label htmlFor="subjek" className="block text-gray-700 font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
+                                    <label htmlFor="subjek" className="block text-white font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
                                         Subjek Konsultasi Properti *
                                     </label>
                                     <select
@@ -199,7 +199,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                         name="subjek"
                                         value={formData.subjek}
                                         onChange={handleChange}
-                                        className="w-full px-3 py-3 md:px-4 md:py-4 border border-gray-200 rounded-lg form-input focus:outline-none focus:border-[#800000] focus:ring-4 focus:ring-[#800000]/20 transition-all duration-300 bg-gray-50/50 hover:bg-white appearance-none text-sm sm:text-base font-sans"
+                                        className="w-full px-3 py-3 md:px-4 md:py-4 border border-[#FFFFFF15] rounded-lg form-input focus:outline-none focus:border-[#D6A676] focus:ring-4 focus:ring-[#D6A676]/20 transition-all duration-300 bg-[#2A2A2A] hover:bg-[#2A2A2A]/80 text-white placeholder-[#A7A7A7] appearance-none text-sm sm:text-base font-sans"
                                         required
                                         itemProp="description"
                                     >
@@ -214,7 +214,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                 </div>
 
                                 <div>
-                                    <label htmlFor="pesan" className="block text-gray-700 font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
+                                    <label htmlFor="pesan" className="block text-white font-semibold mb-2 md:mb-3 text-sm sm:text-base font-sans">
                                         Pesan Detail *
                                     </label>
                                     <textarea
@@ -223,7 +223,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                         value={formData.pesan}
                                         onChange={handleChange}
                                         rows="4"
-                                        className="w-full px-3 py-3 md:px-4 md:py-4 border border-gray-200 rounded-lg form-input focus:outline-none focus:border-[#800000] focus:ring-4 focus:ring-[#800000]/20 transition-all duration-300 bg-gray-50/50 hover:bg-white resize-none text-sm sm:text-base font-sans"
+                                        className="w-full px-3 py-3 md:px-4 md:py-4 border border-[#FFFFFF15] rounded-lg form-input focus:outline-none focus:border-[#D6A676] focus:ring-4 focus:ring-[#D6A676]/20 transition-all duration-300 bg-[#2A2A2A] hover:bg-[#2A2A2A]/80 text-white placeholder-[#A7A7A7] resize-none text-sm sm:text-base font-sans"
                                         placeholder="Tulis pesan detail Anda tentang properti Cirebon di sini..."
                                         required
                                         itemProp="text"
@@ -232,7 +232,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
 
                                 <button
                                     type="submit"
-                                    className="w-full py-3 md:py-4 bg-gradient-to-r from-[#800000] to-[#B22222] text-white font-semibold rounded-lg hover:from-[#A52A2A] hover:to-[#A52A2A] transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg flex items-center justify-center group text-sm sm:text-base lg:text-sm xl:text-base font-sans"
+                                    className="w-full py-3 md:py-4 bg-gradient-to-r from-[#E4725A] to-[#D8896A] text-white font-semibold rounded-lg hover:from-[#D8896A] hover:to-[#E4725A] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center group text-sm sm:text-base lg:text-sm xl:text-base font-sans"
                                 >
                                     <FontAwesomeIcon icon={faWhatsapp} className="mr-2 md:mr-3 text-sm md:text-base group-hover:scale-110 transition-transform" aria-hidden="true" />
                                     Kirim via WhatsApp
@@ -245,20 +245,20 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                     <div>
                         <div className="space-y-6 md:space-y-8">
                             {/* Map Section */}
-                            <div className="bg-white rounded-xl p-4 md:p-6 shadow-md border border-gray-100">
+                            <div className="bg-[#1E1E1E] rounded-xl p-4 md:p-6 shadow-lg border border-[#FFFFFF15]">
                                 <div className="flex items-center mb-4 md:mb-6">
-                                    <div className="bg-gradient-to-r from-[#800000] to-[#B22222] p-2 md:p-3 rounded-lg mr-3 md:mr-4 shadow-md">
+                                    <div className="bg-gradient-to-r from-[#E4725A] to-[#D8896A] p-2 md:p-3 rounded-lg mr-3 md:mr-4 shadow-lg">
                                         <FontAwesomeIcon icon={faMapMarkerAlt} className="text-white text-lg md:text-xl w-5 h-5 md:w-6 md:h-6" />
                                     </div>
                                     <div>
-                                        <h2 className="text-xl sm:text-2xl font-bold text-gray-800 leading-tight font-serif">
-                                            Lokasi Kantor <span className="text-[#800000]">Sonia Property</span>
+                                        <h2 className="text-xl sm:text-2xl font-bold text-white leading-tight font-serif">
+                                            Lokasi Kantor <span className="bg-gradient-to-r from-[#E4725A] to-[#D6A676] bg-clip-text text-transparent">Sonia Property</span>
                                         </h2>
-                                        <p className="text-gray-600 text-sm sm:text-base font-sans">Kunjungi kantor kami di Cirebon</p>
+                                        <p className="text-[#CCCCCC] text-sm sm:text-base font-sans">Kunjungi kantor kami di Cirebon</p>
                                     </div>
                                 </div>
 
-                                <div className="map-container rounded-lg overflow-hidden shadow-md border border-gray-200 mb-4">
+                                <div className="map-container rounded-lg overflow-hidden shadow-lg border border-[#FFFFFF15] mb-4">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.789258918302!2d108.5449018!3d-6.6967326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ee30afba038f1%3A0xcee4c661f502c260!2sSonia%20Property!5e0!3m2!1sid!2sid!4v1698765432107!5m2!1sid!2sid"
                                         width="100%"
@@ -275,7 +275,7 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                 {/* Tombol untuk membuka peta lebih besar */}
                                 <button
                                     onClick={openMapInNewTab}
-                                    className="w-full py-3 bg-gradient-to-r from-[#800000] to-[#B22222] text-white font-semibold rounded-lg hover:from-[#A52A2A] hover:to-[#A52A2A] transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg flex items-center justify-center group text-sm sm:text-base font-sans"
+                                    className="w-full py-3 bg-gradient-to-r from-[#E4725A] to-[#D8896A] text-white font-semibold rounded-lg hover:from-[#D8896A] hover:to-[#E4725A] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center group text-sm sm:text-base font-sans"
                                     aria-label="Buka peta lokasi Sonia Property di Google Maps"
                                 >
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 group-hover:scale-110 transition-transform" aria-hidden="true" />
@@ -283,9 +283,9 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                 </button>
 
                                 {/* Alamat lengkap */}
-                                <div className="mt-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
-                                    <h3 className="font-semibold text-gray-800 mb-2 text-sm sm:text-base">Alamat Lengkap:</h3>
-                                    <p className="text-gray-600 text-sm sm:text-base">
+                                <div className="mt-4 p-4 bg-[#2A2A2A] rounded-lg border border-[#FFFFFF15]">
+                                    <h3 className="font-semibold text-white mb-2 text-sm sm:text-base">Alamat Lengkap:</h3>
+                                    <p className="text-[#CCCCCC] text-sm sm:text-base">
                                         Jl. Kavling Raya No.83, Adidharma, <br />
                                         Gunungjati, Cirebon 45151, <br />
                                         Jawa Barat, Indonesia
@@ -294,9 +294,9 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                             </div>
 
                             {/* Additional Contact Info */}
-                            <div className="bg-white rounded-xl p-6 md:p-8 shadow-md border border-gray-100">
+                            <div className="bg-[#1E1E1E] rounded-xl p-6 md:p-8 shadow-lg border border-[#FFFFFF15]">
                                 <div className="text-center mb-6 md:mb-8">
-                                    <div className="inline-flex items-center bg-gradient-to-r from-[#B22222] to-[#D4AF37] text-white rounded-full px-4 py-2 md:px-6 md:py-2 shadow-lg text-sm sm:text-base font-sans">
+                                    <div className="inline-flex items-center bg-gradient-to-r from-[#D8896A] to-[#D6A676] text-white rounded-full px-4 py-2 md:px-6 md:py-2 shadow-lg text-sm sm:text-base font-sans">
                                         <FontAwesomeIcon icon={faInfoCircle} className="mr-2 w-4 h-4" />
                                         <span className="font-semibold">Informasi Tambahan</span>
                                     </div>
@@ -304,8 +304,8 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
 
                                 <div className="space-y-4 md:space-y-6">
                                     {additionalInfo.map((info, index) => (
-                                        <article key={index} className="flex items-start group hover:bg-[#FAFAFA] p-3 md:p-4 rounded-lg transition-all duration-300">
-                                            <div className="bg-gradient-to-r from-[#800000] to-[#B22222] p-2 md:p-3 rounded-lg mr-3 md:mr-4 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                                        <article key={index} className="flex items-start group hover:bg-[#2A2A2A] p-3 md:p-4 rounded-lg transition-all duration-300 border border-transparent hover:border-[#D6A676]/20">
+                                            <div className="bg-gradient-to-r from-[#E4725A] to-[#D8896A] p-2 md:p-3 rounded-lg mr-3 md:mr-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                                                 <FontAwesomeIcon
                                                     icon={info.icon}
                                                     className="text-white text-base md:text-lg w-4 h-4 md:w-5 md:h-5"
@@ -313,10 +313,10 @@ Saya berharap bisa segera dihubungi untuk informasi lebih lanjut. Terima kasih!`
                                                 />
                                             </div>
                                             <div>
-                                                <h4 className="font-semibold text-gray-800 mb-1 md:mb-2 group-hover:text-[#800000] transition-colors duration-300 text-sm sm:text-base leading-tight font-sans">
+                                                <h4 className="font-semibold text-white mb-1 md:mb-2 group-hover:text-[#D6A676] transition-colors duration-300 text-sm sm:text-base leading-tight font-sans">
                                                     {info.title}
                                                 </h4>
-                                                <div className="text-gray-600 leading-relaxed text-xs sm:text-sm font-sans">
+                                                <div className="text-[#CCCCCC] leading-relaxed text-xs sm:text-sm font-sans">
                                                     {info.content}
                                                 </div>
                                             </div>

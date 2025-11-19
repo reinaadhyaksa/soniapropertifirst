@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        script: ["Great Vibes", "cursive"],
+        mont: ["Montserrat", "sans-serif"]
+      }
+    }
+
   },
   plugins: [],
   // Remove darkMode option completely - this disables dark mode

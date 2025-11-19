@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Force light mode - comprehensive approach */
 :root {
   color-scheme: light only;
   color-scheme: light;
@@ -26,12 +25,10 @@ body {
   color: #1F2937 !important;
 }
 
-/* Force light colors on all elements */
 * {
   color-scheme: light only !important;
 }
 
-/* Ensure form elements also stay light */
 input,
 textarea,
 select {
@@ -40,7 +37,6 @@ select {
   color: #1F2937 !important;
 }
 
-/* Rest of your existing CSS remains unchanged */
 h1,
 h2,
 h3,
