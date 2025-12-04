@@ -8,7 +8,10 @@ export default {
     extend: {
       fontFamily: {
         script: ["Great Vibes", "cursive"],
-        mont: ["Montserrat", "sans-serif"]
+        mont: ["Montserrat", "sans-serif"],
+        franklin: ['"Libre Franklin"', 'sans-serif'],
+        oswald: ['Oswald', 'sans-serif'],
+        spartan: ['"League Spartan"', 'sans-serif'],
       }
     }
 

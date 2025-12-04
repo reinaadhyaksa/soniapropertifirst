@@ -64,27 +64,25 @@ export default function Header() {
                                 />
                             </div>
                             <div className="flex flex-col leading-tight">
-                                {/* SONIA PROPERTY - Ukuran diperbesar dan format diubah */}
                                 <div className="flex items-baseline gap-1">
                                     <h1 className="font-script text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-semibold 
-                       bg-gradient-to-r from-[#C2185B] to-[#E91E63] bg-clip-text text-transparent">
+      bg-gradient-to-r from-[#C2185B] to-[#E91E63] bg-clip-text text-transparent">
                                         Sonia
                                     </h1>
-                                    <span className="font-sans font-bold text-lg xs:text-xl sm:text-2xl lg:text-3xl 
-                         text-transparent bg-clip-text 
-                         bg-gradient-to-r from-[#D4AF37] to-[#F9E28F]">
+
+                                    <span className="font-spartan font-extrabold text-lg xs:text-xl sm:text-2xl lg:text-3xl 
+      tracking-tight uppercase 
+      bg-gradient-to-r from-[#D4AF37] to-[#F9E28F] bg-clip-text text-transparent">
                                         Property
                                     </span>
                                 </div>
 
-                                {/* ASSET MANAGEMENT - Posisi dipindah ke bawah */}
-                                <span className="font-mont font-semibold text-[10px] xs:text-[11px] sm:text-[12px] lg:text-[13px]
-                     tracking-wider text-transparent bg-clip-text 
-                     bg-gradient-to-r from-[#D4AF37] to-[#F9E28F] mt-0.5">
-                                    and Asset Management
+                                <span className="font-spartan font-bold text-[10px] xs:text-[11px] sm:text-[12px] lg:text-[13px]
+    tracking-wide uppercase 
+    bg-gradient-to-r from-[#D4AF37] to-[#F9E28F] bg-clip-text text-transparent">
+                                    and asset management
                                 </span>
                             </div>
-
                         </Link>
                     </div>
 
